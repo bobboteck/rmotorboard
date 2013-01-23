@@ -1,5 +1,5 @@
-/*
- * File:   dsPIC1.c
+/**
+ * File:   rMotorBoard.c
  * Author: bobboteck
  *
  * Created on 13 gennaio 2013, 21.44
@@ -13,12 +13,12 @@
 int main(void)
 {
     DsPicSettings();
-    // Loop to flash an LED on RD0 (pin 23)
+    // Loop to flash an LED on RA4
     while(1)
     {
-        _LATA4 = 1;          // Set RD0 high
+        _LATA4 = 1;          // Set RA4 high
         __delay32(15000000); // 500ms delay
-        _LATA4 = 0;          // Set RD0 low
+        _LATA4 = 0;          // Set RA4 low
         __delay32(15000000); // 500ms delay
     }
 
