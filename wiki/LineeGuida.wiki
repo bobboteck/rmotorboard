@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Descrizione delle linee guida per la scrittura del codice
 #labels Phase-Implementation
 
 = Linee guida scrittura software =
