@@ -16,6 +16,7 @@ _FPOR(FPWRT_PWR128 & ALTI2C_ON);
 
 /**
  * OscillatorSttings
+ * Funzione di libreria utilizzata per la configurazione dell'oscillatore
  */
 void OscillatorSettings()
 {
@@ -30,8 +31,8 @@ void OscillatorSettings()
 
 /**
  * DsPicSettings
- *
- *
+ * Funzione per la configurazione del dsPIC33, viene richiamata dal main per
+ * configurare l'oscillatore, le varie periferiche, ecc
  */
 void DsPicSettings()
 {
